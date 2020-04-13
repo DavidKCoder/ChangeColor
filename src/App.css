@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+}
+
+body {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.btn {
+  background: #1e9600; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #fff200,
+    #1e9600
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  outline: none;
+  border: none;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 12px 1px greenyellow;
+  width: 118px;
+  margin: 1px;
+  cursor: help;
+}
